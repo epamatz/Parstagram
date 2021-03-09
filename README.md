@@ -22,5 +22,5 @@ The following bonus features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
+Note: Had to  compress the video due to github size limit
 <img src='Parsta1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
