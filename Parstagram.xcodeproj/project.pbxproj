@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1C7094B8EA1F058E56C8319D /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C88E642592D55E2C83FF1A5 /* Pods_Parstagram.framework */; };
+		753BCC9F2600808600A5AB47 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BCC9E2600808600A5AB47 /* CommentCell.swift */; };
+		753BCCA12600809300A5AB47 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BCCA02600809300A5AB47 /* PostCell.swift */; };
+		753BCCA32600809A00A5AB47 /* ProfileCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BCCA22600809A00A5AB47 /* ProfileCameraViewController.swift */; };
+		753BCCA5260080A000A5AB47 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753BCCA4260080A000A5AB47 /* ProfileViewController.swift */; };
 		75429BF225F7311E004E2395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75429BF125F7311E004E2395 /* AppDelegate.swift */; };
 		75429BF425F7311E004E2395 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75429BF325F7311E004E2395 /* SceneDelegate.swift */; };
 		75429BF925F7311E004E2395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75429BF725F7311E004E2395 /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 /* Begin PBXFileReference section */
 		14F2AB580586FCDF6204E0E8 /* Pods-Parstagram-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram-ParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		597BC12450B6FB5B117C6289 /* Pods_Parstagram_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		753BCC9E2600808600A5AB47 /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		753BCCA02600809300A5AB47 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		753BCCA22600809A00A5AB47 /* ProfileCameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileCameraViewController.swift; sourceTree = "<group>"; };
+		753BCCA4260080A000A5AB47 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		75429BEE25F7311E004E2395 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75429BF125F7311E004E2395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75429BF325F7311E004E2395 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +114,10 @@
 		75429BF025F7311E004E2395 /* Parstagram */ = {
 			isa = PBXGroup;
 			children = (
+				753BCCA4260080A000A5AB47 /* ProfileViewController.swift */,
+				753BCCA22600809A00A5AB47 /* ProfileCameraViewController.swift */,
+				753BCCA02600809300A5AB47 /* PostCell.swift */,
+				753BCC9E2600808600A5AB47 /* CommentCell.swift */,
 				75429BF125F7311E004E2395 /* AppDelegate.swift */,
 				75429BF325F7311E004E2395 /* SceneDelegate.swift */,
 				75429C1925F73625004E2395 /* PostCell.swift */,
@@ -326,12 +338,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753BCCA32600809A00A5AB47 /* ProfileCameraViewController.swift in Sources */,
 				75429C1A25F73626004E2395 /* PostCell.swift in Sources */,
+				753BCCA5260080A000A5AB47 /* ProfileViewController.swift in Sources */,
 				75429BF225F7311E004E2395 /* AppDelegate.swift in Sources */,
 				75429C1425F735EC004E2395 /* FeedViewController.swift in Sources */,
 				75429C1625F73605004E2395 /* LoginViewController.swift in Sources */,
 				75429BF425F7311E004E2395 /* SceneDelegate.swift in Sources */,
 				75429C1825F73610004E2395 /* CameraViewController.swift in Sources */,
+				753BCC9F2600808600A5AB47 /* CommentCell.swift in Sources */,
+				753BCCA12600809300A5AB47 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
